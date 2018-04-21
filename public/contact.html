@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html id="Home">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddartha</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark.css">
+    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-color:rgb(47,47,47);background-image:url(&quot;assets/img/booth.jpg&quot;);background-repeat:no-repeat;background-size:cover;background-blend-mode:color-dodge;">
+    <h1 class="text-center" id="TOP" style="background-color:rgba(0,0,0,0);color:rgb(255,255,255);">Contact&nbsp;</h1>
+    <p class="text-center" id="sub" style="color:rgb(255,255,255);"></p>
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color:rgba(255,255,255,0);">
+        <div class="container-fluid"><a class="navbar-brand" href="#"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav mx-auto" style="color:rgb(156,133,133);">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html" data-bs-hover-animate="pulse" style="color:rgba(255,255,255,0.53);">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="portfolio.html" data-bs-hover-animate="pulse" style="color:rgba(255,255,255,0.5);">Portfolio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" data-bs-hover-animate="pulse" style="color:#ffffff;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="Divide"></div>
+    <div id="contact" style="background-color:rgba(24,24,24,0.58);">
+        <div class="container">
+            <div class="intro">
+                <h2 id="contalk"><br>Contact me and&nbsp;we'll talk!</h2>
+            </div>
+            <form action="assets/php/contact.php" method="post" id="contact-form">
+                <div class="messages"></div>
+                <div class="controls">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="form-group"><label for="form_name" style="color:rgb(255,255,255);">Name* </label><input class="form-control" type="text" name="name" required="" placeholder="Fill in your name" id="form_name" data-error="Vorname erforderlich.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group"><label for="form_lastname" style="color:rgb(255,255,255);">Subject* </label><input class="form-control" type="text" name="lastname" required="" placeholder="What do you want to talk about?" id="form_lastname" data-error="Nachname erforderlich.">
+                                <div
+                                    class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6">
+                <div class="form-group"><label for="form_email" id="field" style="color:rgb(255,255,255);">E-Mail* </label><input class="form-control" type="email" name="email" required="" placeholder="Fill in your Email" id="form_email" data-error="Vorname erforderlich.">
+                    <div
+                        class="help-block with-errors"></div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-12">
+            <div class="form-group"><label for="form_message" style="color:rgb(255,255,255);">Message* </label><input class="form-control form-control-lg" type="text" name="message" required="" id="form_message" data-error="Nachricht erforderlich." rows="4">
+                <div class="help-block with-errors"></div>
+            </div>
+        </div>
+        <div class="col-md-12"><button class="btn btn-primary btn-lg btn-send" type="submit" value="Senden" style="background-color:rgba(0,157,44,0.46);">Senden </button></div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-12">
+            <p class="text-muted"></p>
+        </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/PHP-Contact-Form-dark.js"></script>
+    <script src="assets/js/PHP-Contact-Form-dark.js"></script>
+</body>
+
+</html>
